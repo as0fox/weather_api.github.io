@@ -1,0 +1,22 @@
+#weather{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-card {
+box-shadow: 12px 12px 12px;
+ 
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.weather-image {
+    width: 100px;
+    height: auto;
+}
